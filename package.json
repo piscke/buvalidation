@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "e2e": "cypress open"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "selenium-webdriver": "^4.5.0"
+  "dependencies": {},
+  "devDependencies": {
+    "chance": "^1.1.8",
+    "cypress": "^10.9.0"
   }
 }
